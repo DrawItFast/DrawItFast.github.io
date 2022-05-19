@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
 </style>
-<script>
+<script defer>
  /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
@@ -32,4 +32,5 @@ function closeFullscreen() {
     document.msExitFullscreen();
   }
 }
+openFullscreen();
 </script>
